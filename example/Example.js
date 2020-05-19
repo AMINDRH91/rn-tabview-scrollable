@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import { View,Image,Text,Dimensions} from "react-native";
 const {width,height} = Dimensions.get("window");
-import TabViewScrollable from '../src/lib/TabViewScrollable'
+import TabViewScrollable from 'rn-collapsing-tab-bar'
 import Icon from 'react-native-vector-icons/AntDesign'
 
 class ComponentOne extends Component {
